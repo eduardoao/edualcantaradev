@@ -1,0 +1,33 @@
+<div class="row justify-content-center text-center mb-4">
+    <div class="col-lg-8">
+        <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+            <i class="fa fa-medium text-primary"></i>
+        </div>
+        <h2 class="display-3">Últimos Artigos</h2>
+        <p class="lead text-muted">Acesse o perfil completo em <a
+                href="https://medium.com/@lennonalvesdias" target="_blank">medium@lennonalvesdias</a>.</p>
+    </div>
+</div>
+
+<owl-carousel-o [options]="carouselOptions">
+    <ng-container *ngFor="let feed of feeds">
+        <ng-template carouselSlide [id]="feed.title">
+            <div>
+                <div class="card card-lift--hover shadow border-0">
+                    <div class="card-body py-5">
+                        <div class="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i class="fa fa-medium"></i>
+                        </div>
+                        <h6 class="text-primary text-uppercase"><a [href]="feed.link" target="_blank">{{ feed.title }}</a></h6>
+                        <p class="description mt-3" [innerHTML]="feed.description.substring(0, 300)"></p>
+                        <div>
+                            <span *ngFor="let category of feed.categories; let i = index"
+                                class="badge badge-pill badge-primary">{{ category }}</span>
+                        </div>
+                        <a [href]="feed.link" target="_blank" class="btn btn-primary mt-4">Continuar lendo</a>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </ng-container>
+</owl-carousel-o>

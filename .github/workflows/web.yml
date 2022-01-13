@@ -1,0 +1,60 @@
+name: Build & Deploy
+
+on:
+  push:
+    paths-ignore:
+      - "**.md"
+    branches:
+      - hotfix/*
+      - release
+  pull_request:
+    branches:
+      - develop
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Person'
+        required: true
+
+jobs:
+  build:
+    name: build
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: use node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: npm install
+      - run: npm run build
+      - name: docker build & push
+        uses: docker/build-push-action@v1.1.0
+        with:
+          username: lennonalvesdias
+          password: ${{ secrets.GITHUB_TOKEN }}
+          repository: lennonalvesdias/lennonalvesdias.github.io/site
+          registry: docker.pkg.github.com
+          tags: ${{ github.sha }}, latest
+          dockerfile: Dockerfile
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: docker deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST_ADDRESS }}
+          username: ${{ secrets.HOST_USERNAME }}
+          password: ${{ secrets.HOST_PASSWORD }}
+          script: |
+            cat ./github_token.txt | docker login docker.pkg.github.com -u lennonalvesdias --password-stdin
+            docker pull docker.pkg.github.com/lennonalvesdias/lennonalvesdias.github.io/site:latest
+            docker rm -f site || true
+            docker run -d --name site -p 1994:80 --restart=always --net nginx-proxy -e VIRTUAL_HOST=site.lennon.cloud,lennon.cloud -e LETSENCRYPT_HOST=site.lennon.cloud,lennon.cloud -e LETSENCRYPT_EMAIL=lennonalvesdias@gmail.com docker.pkg.github.com/lennonalvesdias/lennonalvesdias.github.io/site:latest
