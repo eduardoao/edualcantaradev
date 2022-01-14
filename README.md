@@ -12,7 +12,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/eduardoao/edualcantaradev.svg">
   
   <a href="https://github.com/eduardoao/edualcantaradev/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eduardoao/cli.svg">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/edualcantaradev/cli.svg">
   </a>
 
   <a href="https://github.com/eduardoao/edualcantaradev/issues">
