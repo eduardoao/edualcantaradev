@@ -19,8 +19,9 @@
     <img alt="Repository issues" src="https://img.shields.io/github/issues/eduardoao/edualcantaradev.svg">
   </a>
   
-  <img alt="GitHub language count" src="https://img.shields.io/github/forks/eduardoao/edualcantaradev.svg">
+  <img alt="forks" src="https://img.shields.io/github/forks/eduardoao/edualcantaradev.svg">
   
+  <img alt="Stars" src="https://img.shields.io/github/stars/eduardoao/edualcantaradev.svg">
   
   
 
