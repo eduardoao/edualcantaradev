@@ -7,16 +7,16 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eduardoao/eduardoao.github.io.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eduardoao/edualcantaradev.github.io.svg">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/eduardoao/eduardoao.github.io.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/eduardoao/edualcantaradev.github.io.svg">
   
-  <a href="https://github.com/eduardoao/edualcantara.dev.github.io/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lennonalvesdias/cli.svg">
+  <a href="https://github.com/eduardoao/edualcantaradev.github.io/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eduardoao/cli.svg">
   </a>
 
   <a href="https://github.com/lennonalvesdias/lennonalvesdias.github.io/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/lennonalvesdias/lennonalvesdias.github.io.svg">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/eduardoao/edualcantaradev.github.io.svg">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
