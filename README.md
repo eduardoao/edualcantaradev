@@ -1,5 +1,5 @@
 <h1 align="center">
-    <b>LennonAlves</b>.com.br
+    <b>edualcantara</b>.dev
 </h1>
 
 <h4 align="center">
