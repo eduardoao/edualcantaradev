@@ -1189,8 +1189,8 @@ var NavbarComponent = /** @class */ (function () {
         get: function () {
             return {
                 name: "Eduardo Alcantara de Oliveira",
-                image: "https://www.gravatar.com/avatar/d55c213eb8dadd014ca0d7085f0d7b4a?s=250&d=404",
-                description: "Computer Scientist, Developer. Computer Science (UTFPR/PG - 2015). Artificial Intelligence & Machine Learning (FIAP/SP - 2020).",
+                image: "https://media-exp1.licdn.com/dms/image/C4D03AQEF_R3rwT-h5g/profile-displayphoto-shrink_800_800/0/1641566381094?e=1647475200&v=beta&t=4Kt8fg4G1dT4LT-MapWXDDrcGA7tnXUk0omnF7-3E3Y",
+                description: "Developer. MBA Arquitetura de Software distribuído (PUC/MG - 2021).",
             };
         },
         enumerable: true,
