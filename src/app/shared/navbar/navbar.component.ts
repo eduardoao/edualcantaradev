@@ -33,7 +33,7 @@ export class NavbarComponent implements OnInit {
 
   get profile() {
     return {
-      name: "Lennon Dias",
+      name: "Eduardo Alcantara de Oliveira",
       image:
         "https://www.gravatar.com/avatar/d55c213eb8dadd014ca0d7085f0d7b4a?s=250&d=404",
       description:

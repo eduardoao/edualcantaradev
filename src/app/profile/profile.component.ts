@@ -12,7 +12,7 @@ export class ProfileComponent implements OnInit {
 
   get profile() {
     return {
-      name: "Lennon Dias",
+      name: "Eduardo Alcantara de Oliveira",
       title: "Computer Science / Cientista da Computação",
       description: `Profissional apaixonado por tecnologia e movido pelo propósito de impactar a vida das pessoas, criando ferramentas para que elas possam fazer melhor as suas atividades.
       <br/><br/>
