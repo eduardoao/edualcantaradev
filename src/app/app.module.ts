@@ -18,6 +18,7 @@ import { ProfileMeComponent } from './profile/me/me.component';
 import { ProfileTestimonialsComponent } from './profile/testimonials/testimonials.component';
 import { ProfileProjectsComponent } from './profile/projects/projects.component';
 import { ProfileBlogComponent } from './profile/blog/blog.component';
+import { SkillsComponent } from './profile/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ProfileBlogComponent } from './profile/blog/blog.component';
     ProfileMeComponent,
     ProfileTestimonialsComponent,
     ProfileProjectsComponent,
-    ProfileBlogComponent
+    ProfileBlogComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,15 +1,22 @@
-<div class="main-wrapper">
-  <profile-resume [profile]="profile"></profile-resume>
-  <!-- <profile-me></profile-me> -->
-  <div class="container"><hr /></div>
+<div class="container sections-wrapper py-5">
+  <div class="row">
+  <div class="primary col-lg-8 col-12">
+    <profile-resume [profile]="profile"></profile-resume>
+  </div>
 
-  <!-- <profile-testmonials></profile-testmonials> -->
-  <!-- <div class="container"><hr /></div> -->
+  <div class="secondary col-lg-4 col-12">
+    <app-skills></app-skills> <!-- Colocar o conhecimento em tecnologias-->
+  </div>
+  <!--Resumo-->
+  </div>
 
-  <!-- <profile-projects></profile-projects> -->
-  <!-- <div class="container"><hr /></div> -->
-
+  <!-- <hr />
+  <profile-testimonials></profile-testimonials> -->
+  <hr />
+  <profile-projects></profile-projects>
+  <hr />
   <profile-blog></profile-blog>
-  
+
+
   <app-footer></app-footer>
 </div>
