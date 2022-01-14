@@ -7,11 +7,11 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lennonalvesdias/lennonalvesdias.github.io.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eduardoao/eduardoao.github.io.svg">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lennonalvesdias/lennonalvesdias.github.io.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/eduardoao/eduardoao.github.io.svg">
   
-  <a href="https://github.com/lennonalvesdias/lennonalvesdias.github.io/commits/master">
+  <a href="https://github.com/eduardoao/edualcantara.dev.github.io/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lennonalvesdias/cli.svg">
   </a>
 
