@@ -7,9 +7,9 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eduardoao/edualcantaradev.github.io.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/eduardoao/edualcantaradev.svg">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/eduardoao/edualcantaradev.github.io.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/eduardoao/edualcantaradev.svg">
   
   <a href="https://github.com/eduardoao/edualcantaradev.github.io/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eduardoao/cli.svg">
