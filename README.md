@@ -11,13 +11,18 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/eduardoao/edualcantaradev.svg">
   
-  <a href="https://github.com/eduardoao/edualcantaradev.github.io/commits/master">
+  <a href="https://github.com/eduardoao/edualcantaradev/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eduardoao/cli.svg">
   </a>
 
-  <a href="https://github.com/lennonalvesdias/lennonalvesdias.github.io/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/eduardoao/edualcantaradev.github.io.svg">
+  <a href="https://github.com/eduardoao/edualcantaradev/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/eduardoao/edualcantaradev.svg">
   </a>
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/forks/eduardoao/edualcantaradev.svg">
+  
+  
+  
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
